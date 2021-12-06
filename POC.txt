@@ -1,0 +1,5 @@
+Giuseppe:
+
+Monday: go through theory, find data for json
+Tuesday: chatbot (NLP MODEL TRAINED ON JSON)
+Wednesday (morning): chatbot
