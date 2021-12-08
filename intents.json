@@ -1,0 +1,154 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good evening",
+        "Help"
+      ],
+      "responses": [
+        "Hello, thanks for visiting! If you want to know more about me, you can ask me about my education, job experience or hobbies!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "What is your education level?",
+        "Where did you study?",
+        "What is the highest level of instruction?",
+        "What school did you go to?",
+        "Are you still studying?",
+        "Education"
+      ],
+      "responses": [
+        "If you want to know about my education, try these keywords: Highschool, Undergraduate Degree, Master's Degree"
+      ]
+    },
+    {
+      "tag": "Highscool",
+      "patterns": [
+        "What highschool did you go to?",
+        "When did you finish school?",
+        "Where did you study at school?",
+        "Tell me more about your school"
+      ],
+      "responses": [
+        "I went to highschool in the small city  of Catanzaro, southern Italy. The school is called Liceo Classico Galluppi, 'Classico' because we were taught Ancient Greek and Latin. The extracurricular activities I took part in during those years were the Math Olympics and Ancient Greek Theatre, I was also part of my school's football team and volunteered as a steward during the school's Book Festival Week. I graduated with a mark of 90/100. Here is the School's website: https://www.liceogalluppi.net"
+      ]
+    },
+    {
+      "tag": "University",
+      "patterns": [
+        "Where did you go to University?",
+        "At what university did you study??",
+        "What college did you go to?",
+        "Where did you get your Bachelor's Degree?",
+        "What year did you get your degree from the university?",
+        "What is your Undergraduate Degree?"
+      ],
+      "responses": [
+        "I got my Bachelor's Degree in Electrical, Electronics, and Communications Engineering from Geetanjali Institute of Technical Studies. I graduated with a First Class Degree (which is the top mark you can get!). During my time at Uni I worked on small engineering projects with my classmates. Here is my University's website! https://www.gits.ac.in/"
+      ]
+    },
+    {
+      "tag": "Master's Degree",
+      "patterns": [
+        "Do you have a master's degree?",
+        "What is your Master's Degree?",
+        "Where did you get your Master's Degree?"
+      ],
+      "responses": [
+        "After getting my bachelor degree I decided to complete my education with a Master of Science in Petroleum Engineering at the Imperial College in London. As if living and studying in London was not exciting enough, during my Master I had the chance to visit an oil platform in the Atlantic Ocean! Just like with my Bachelor Degree, I got a First Class mark"
+
+      ]
+    },
+    {
+      "tag": "Experience",
+      "patterns": [
+        "What is your working experience?",
+        "Tell me about your jobs",
+        "Did you do more than studying?",
+        "What is your most recent job?",
+        "What experience do you have?",
+        "Who is your most recent employer?",
+        "Where have you worked?"
+      ],
+      "responses": [
+        "I have a bit of experience, to check in detail every single job I've had, ask me using these keywords: Strategic Planning Intern, Production Supervisor, Data Scientist"
+      ]
+    },
+    {
+      "tag": "Internship",
+      "patterns": [
+        "What internship did you do?",
+        "Where did you do your internship?",
+        "Strategic Planning Intern",
+        "Tell me about your first internship"
+
+
+      ],
+      "responses": [
+        "My first full time office experience was an internship at OMD. OMD is a media agency, a company that buys advertising space for huge companies such as McDonald's, EasyJet, Barilla, and so on. Since the advertising budget for such companies can be measured in the millions, the strategic choice of where to buy the advertising space must be taken without making errors. To ensure the best decisions the strategic team of which I was part studied the company, its competitors, its customers and what media they use most (Tv? Netflix? Social Media) and then adviced on where to invest and how much to invest to get the best results."
+      ]
+    },
+    {
+      "tag": "Production Supervisor",
+      "patterns": [
+        "Where did you work as a production supervisor?",
+        "Production supervisor",
+        "What was it like to be a production supervisor?",
+        "First full time job",
+        "What brought you back to Indonesia?"
+      ],
+      "responses": [
+        "After my Master's degree I went back to my hometown of Sorong, to work as a production supervisor at an Oil Company, perfectly in line with my Master's Degree, where I designed and supervised the implentation of solutions for the Company."
+      ]
+    },
+    {
+      "tag": "Data Scientist",
+      "patterns": [
+        "Hod did you become a data scientist?",
+        "What kis your current position?",
+        "What are you doing now?",
+        "What do you want to do in the future?",
+        "Data Scientist",
+        "Data Science"
+      ],
+      "responses": [
+        "After deciding that the Data Science path was the right choice for my career, I joined Strive and took their bootcamp for AI and Data Science. By the end of it I was capable of building Machine Learning algorithms (Neural Networks included). I've started a job as a data scientist at the noble shoe company, where I use my capabilities to build model that handle big data and where I create dashboards so that the other departments have quick accesses to the needed insights"
+      ]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "Do you have any hobbies?",
+        "Do you play any sports?",
+        "What's your favourite movie?",
+        "Do you like travelling?"
+      ],
+      "responses": [
+        "I like videogames, movies and tv series, books (mostly fiction) and animals!"
+      ]
+    }
+  ]
+}
